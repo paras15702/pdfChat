@@ -1,0 +1,34 @@
+# Ignored files and folders
+
+# Build artifacts
+*.log
+*.tmp
+**/tmp/
+
+# Dependency caches
+/node_modules/
+
+#  Project-specific files
+/venv/
+
+#  Temp files
+*.pyc
+*.pyo
+*.pyi
+__pycache__/
+
+# IDE-specific files
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#  Some sensitive files (example)
+*.pem
+*.key
+.env
+
+#  Negate a pattern
+! important.txt
